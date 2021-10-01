@@ -14,7 +14,7 @@ fs.readFile(args.source,"utf-8",function(err,data){
     {
         // console.log(data);
         //now our data is of form string it is not JSO yet, so we cant't apply operations on it and extract its values
-        //so we gotta convert JSON to JSO
+        //so we gotta convert JSON to JS Object
         let teams=JSON.parse(data);// now data i.e JSON is converted to JSO and is name teams
         console.log(teams[1].name); 
     }
