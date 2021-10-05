@@ -20,8 +20,7 @@ let hs=wb.createStyle({
         underline:true,
         size:15
     }
-})
-
+});
 
 for(let i=0;i<teams.length;i++)
 {
