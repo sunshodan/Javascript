@@ -1,3 +1,5 @@
+//node FirstFolderCreation.js --source=teams.json --dest=root
+
 let minimist=require("minimist");
 let fs=require("fs");
 let path=require("path");
