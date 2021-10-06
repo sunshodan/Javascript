@@ -10,7 +10,7 @@ let args=minimist(process.argv);
 let teamsJSON=fs.readFileSync(args.source,"utf-8");
 let teams=JSON.parse(teamsJSON);
 
-// console.log(teamsJSON);
+//console.log(teamsJSON);
 
 for(let i=0;i<teams.length;i++)
 {
